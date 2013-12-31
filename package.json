@@ -1,0 +1,13 @@
+{
+  "name": "flot-stream",
+  "version": "0.0.0",
+  "description": "Stream to a FlotChart",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "devDependencies": {
+    "browserify": "~3.14.1"
+  },
+  "scripts": {
+    "build": "browserify ./ > bundle.js && npm run build-examples",
+    "build-examples": "browserify examples/random/index.js > examples/random/bundle.js"
+  }
+}
