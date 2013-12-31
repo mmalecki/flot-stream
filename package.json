@@ -1,6 +1,6 @@
 {
   "name": "flot-stream",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Stream to a FlotChart",
   "author": "Maciej Małecki <me@mmalecki.com>",
   "devDependencies": {
