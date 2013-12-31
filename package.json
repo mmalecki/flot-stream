@@ -2,6 +2,7 @@
   "name": "flot-stream",
   "version": "0.1.0",
   "description": "Stream to a FlotChart",
+  "keywords": ["flot", "chart", "stream"],
   "author": "Maciej Małecki <me@mmalecki.com>",
   "devDependencies": {
     "browserify": "~3.14.1"
