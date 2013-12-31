@@ -6,6 +6,10 @@
   "devDependencies": {
     "browserify": "~3.14.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/flot-stream.git"
+  },
   "scripts": {
     "build": "browserify ./ > bundle.js && npm run build-examples",
     "build-examples": "browserify examples/random/index.js > examples/random/bundle.js"
